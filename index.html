@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanifra Jewellery</title>
+    <style>
+    
+     .gallery img {
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s; 
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1); 
+        }
+
+    
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            font-family: 'Times New Roman', sans-serif;
+            background-image: url('https://i.pinimg.com/564x/2d/38/fe/2d38fe6dfbb448f2a51b3f7c6f52d75e.jpg');
+            color: #1B3525;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #fff;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #777;
+        }
+
+        section {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 800px;
+            border-bottom: 1px solid #ccc;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        #about {
+            background-color: #1B3525;
+            color: #fff;
+        }
+
+        #earrings {
+            background-color: #1B3525;
+            color: #fff;
+        }
+#earrings .gallery {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #earrings .gallery img {
+            width: 30%; 
+            box-sizing: border-box; 
+        }
+        #necklaces {
+            padding: 2em;
+            color: #032403;
+        }
+
+        #necklaces .gallery {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #necklaces .gallery img {
+            width: 30%; 
+            box-sizing: border-box; 
+        }
+#bracelets .gallery {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #bracelets .gallery img {
+            width: 30%; 
+            box-sizing: border-box; 
+        }
+        .gallery-item {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanifra Jewellery</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+#about {
+    font-size: 1.2em; 
+}
+#home
+{
+    font-size: 1.2em; 
+}
+        header {
+            font-family: 'Times New Roman', sans-serif;
+            background-image: url('https://i.pinimg.com/564x/2d/38/fe/2d38fe6dfbb448f2a51b3f7c6f52d75e.jpg');
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #1B3525;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 5px; 
+        }
+
+        nav a:hover {
+            background-color: #777;
+        }
+
+        section {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 100%; 
+            border-bottom: 1px solid #ccc;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 2em; 
+        }
+
+        #about,
+        #earrings,
+        #necklaces,
+        #bracelets {
+            background-color: #fff;
+            color: #032403;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .gallery img {
+            width: 100%; 
+            box-sizing: border-box;
+            border-radius: 10px; 
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        #goToTopButton {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #134732;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #goToTopButton:hover {
+            background-color: #0d361f;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>
+
+    <header>
+        <h1>Lanifra Jewellery</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">O nas</a>
+        <a href="#earrings">Kolczyki</a>
+        <a href="#necklaces">Naszyjniki</a>
+        <a href="#bracelets">Bransoletki</a>
+    </nav>
+    <section id="home">
+        <h2>Witaj w Lanifra Jewellery</h2>
+        <p>Znajdź idealną biżuterię, która podkreśli Twoją indywidualność. 
+        <p>
+        Rozpocznij podróż od strony głównej, gdzie witamy Cię w świecie Lanifra Jewellery i inspirujemy do znalezienia idealnej biżuterii, która podkreśli Twoją indywidualność.</p>
+    </section>
+
+    <section id="about">
+        <h2>O nas</h2>
+        <p>Lanifra Jewellery to miejsce, gdzie sztuka spotyka się z pięknem. Nasze unikalne projekty biżuterii są starannie wykonane, aby podkreślić Twoją indywidualność i wyjątkowość. Poznaj naszą historię i zanurz się w świecie Lanifra Jewellery.</p>
+    </section>
+
+    <section id="earrings">
+        <h2>Kolczyki</h2>
+        <p>Przejrzyj naszą bogatą kolekcję kolczyków, które wyróżniają się oryginalnym designem i starannym wykonaniem. Znajdź idealny dodatek do swojej kolekcji biżuterii.</p>
+        <p>
+        <br>
+        <p>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/736x/d3/65/2f/d3652f94ed13a8c725f21984409b0a55.jpg" alt="Kolczyki 1">
+            <img src="https://i.pinimg.com/736x/7d/17/54/7d175469f40683f09497e65b950d7539.jpg" alt="Kolczyki 2">
+            <img src="https://i.pinimg.com/736x/70/02/98/700298746dc6dfb39d37936672b95db4.jpg" alt="Kolczyki 3">
+        </div>
+        <p>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/736x/db/e8/fe/dbe8fe8434e156c849298e0f7d39937b.jpg" alt="Kolczyki 4">
+            <img src="https://i.pinimg.com/736x/43/36/9d/43369d4781c73dd026a8d8c90ffbd882.jpg" alt="Kolczyki 5">
+            <img src="https://i.pinimg.com/736x/e4/3a/84/e43a844cfa57c73f923fc713cdf0dfaa.jpg" alt="Kolczyki 6">
+        </div>
+        <p>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/736x/57/8d/99/578d9979a4912f4cab53c09c0e69d93f.jpg" alt="Kolczyki 7">
+            <img src="https://i.pinimg.com/736x/05/67/a0/0567a07c4e7f3bac595b3ce5d3eaeb69.jpg" alt="Kolczyki 8">
+            <img src="https://i.pinimg.com/736x/ea/05/99/ea05997c81d9792a41441e0987b821bc.jpg" alt="Kolczyki 9">
+        </div>
+        <p>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/736x/d9/a3/96/d9a3965726647b13d550e76858bb494e.jpg" alt="Kolczyki 10">
+            <img src="https://i.pinimg.com/736x/c1/f0/86/c1f086ec1f69748be56dd83a89ca29f6.jpg" alt="Kolczyki 11">
+            <img src="https://i.pinimg.com/736x/5e/15/7c/5e157c45e94c63b1fa3ea7ff604d9aba.jpg" alt="Kolczyki 12">
+        </div>
+    </section>
+
+    <section id="necklaces">
+        <h2>Naszyjniki</h2>
+        <p>Odkryj nasze piękne naszyjniki, które dodają elegancji i wdzięku. Każdy naszyjnik opowiada własną historię i stanowi doskonałe wyrażenie Twojego stylu.</p>
+        <p>
+        <br>
+        <p>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/736x/14/c8/88/14c888325e3ab40ea5614836c4e168cf.jpg" alt="Naszyjnik 1">
+            <img src="https://i.pinimg.com/736x/d7/64/23/d76423d5428aa5b2e99c6e9ef8c9b181.jpg" alt="Naszyjnik 2">
+            <img src="https://i.pinimg.com/736x/83/cf/b2/83cfb270c6fc14e6340c94c4abfbfca5.jpg" alt="Naszyjnik 3">
+        </div>
+        <p>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/736x/9a/e1/03/9ae1039c5df628481e47a2b466e2acd6.jpg" alt="Naszyjnik 4">
+            <img src="https://i.pinimg.com/736x/6a/cc/73/6acc73883a80b0e0b8ff505962e9ab62.jpg" alt="Naszyjnik 5">
+            <img src="https://i.pinimg.com/736x/f8/c2/85/f8c285a11c548aad7b486bcbb3d59874.jpg" alt="Naszyjnik 6">
+        </div>
+        <p>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/736x/95/70/89/957089e9e42fbcbfcfb865def91e9786.jpg" alt="Naszyjnik 7">
+            <img src="https://i.pinimg.com/736x/9e/c6/ef/9ec6ef31b71cea9a971ce445454cf9d7.jpg" alt="Naszyjnik 8">
+            <img src="https://i.pinimg.com/736x/3e/a8/b3/3ea8b34ff98e85598cf58d911519cf2b.jpg" alt="Naszyjnik 9">
+        </div>
+    </section>
+
+    <section id="bracelets">
+        <h2>Bransoletki</h2>
+        <p>Przeglądaj unikalne bransoletki, które doskonale uzupełniają naszą kolekcję biżuterii. Każda bransoletka to mały dzieł sztuki, dostosowany do różnorodnych gustów.</p>
+        <p>
+        <br>
+        <p>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/736x/46/5c/ec/465ceca7bc09004644d40ed4f107bf6b.jpg" alt="Bransoletka 1">
+            <img src="https://i.pinimg.com/736x/49/5d/89/495d891c132f012ce0af541d02225f74.jpg" alt="Bransoletka 2">
+            <img src="https://i.pinimg.com/736x/17/14/ee/1714eeaefe6d60998e39d7c1b3662547.jpg" alt="Bransoletka 3">
+        </div>
+    </section>
+ 
+ <style>
+       
+       #goToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #134732;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#goToTopButton:hover {
+    background-color: #0d361f; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+       
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        
+        #goToTopButton {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #134732; /
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <button id="goToTopButton" onclick="goToTop()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 16h2v-6h3l-4-4-4 4h3z"/>
+        </svg>
+    </button>
+
+    <script>
+        function goToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
+    <footer>
+    </footer>
+</body>
+</html>
